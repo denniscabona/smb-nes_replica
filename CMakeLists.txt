@@ -28,7 +28,10 @@ SET (tappa01 "01_basic_structure")
 add_executable(${tappa01} ${tappa01}/main.cc)
 target_link_libraries(${tappa01} PRIVATE SFML::Graphics common)
 
-# 01a_basic_structure
+# 02_character_movement
+SET (tappa02 "02_character_movement")
+add_executable(${tappa02} ${tappa02}/main.cc)
+target_link_libraries(${tappa02} PRIVATE SFML::Graphics common)
 
 # 01b_texture_files
 

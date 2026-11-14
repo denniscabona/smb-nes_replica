@@ -112,12 +112,12 @@ void handle(const sf::Event::FocusLost& focus_lost, State &gs){
     gs.is_paused = true;
 }
 
-
-
 template <typename T>
 void handle(const T &, State &gs) {
     // All unhandled events will end up here   
 }
+
+
 
 //////////
 // Loop //

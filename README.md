@@ -13,7 +13,11 @@ Per eseguire una tappa:
 I nomi degli eseguibili delle varie tappe sono:
 ```
  - 01_basic_structure
+ - 02_character_movement
 ```
 
 ## Comandi
  - ESC: mettere il gioco in pausa
+ - LEFT (←): muovere il personaggio a sinistra
+ - RIGHT (→): muovere il personaggioa  destra
+ - UP (↑): far saltare il personaggio
