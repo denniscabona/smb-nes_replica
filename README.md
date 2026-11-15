@@ -14,9 +14,17 @@ I nomi degli eseguibili delle varie tappe sono:
 ```
  - 01_basic_structure
  - 02_character_movement
+ - 03_pause_menu
 ```
 
 ## Comandi
+Nel menu di pausa:
+ - ESC: riprendi a giocare
+ - UP (↑): cambia la scelta selezionando quella sopra
+ - DOWN (↓): cambia la scelta selezionando quella sotto
+ - ENTER: conferma la scelta selezionata
+
+In gioco:
  - ESC: mettere il gioco in pausa
  - LEFT (←): muovere il personaggio a sinistra
  - RIGHT (→): muovere il personaggioa  destra

@@ -33,26 +33,7 @@ SET (tappa02 "02_character_movement")
 add_executable(${tappa02} ${tappa02}/main.cc)
 target_link_libraries(${tappa02} PRIVATE SFML::Graphics common)
 
-# 01b_texture_files
-
-# 01c_texture_embedded
-
-# 02a_move_ball
-
-# 02b_startpause
-
-# 02c_move_paddle
-
-# 03a_field_limits
-
-# 03b_robust_field_limits
-
-# 03c_basic_strike
-
-# 03d_variable_strike
-
-# 03e_paddle_edges
-
-# 04a_blocks
-
-# 04b_hits
+# 03_pause_menu
+SET (tappa03 "03_pause_menu")
+add_executable(${tappa03} ${tappa03}/main.cc)
+target_link_libraries(${tappa03} PRIVATE SFML::Graphics common)

@@ -8,7 +8,7 @@
 //////////////////////
 
 // window
-const char* window_title = "01_basic_structure";
+const char* window_title = "02_character_movement";
 const unsigned window_width = 800;
 const unsigned window_height = 600;
 const float max_frame_rate = 60;
@@ -116,6 +116,11 @@ struct State {
     }
 
     void map_limits() {
+        if(character.pos.x + character.size.x > window_width)
+            character.pos.x = window_width - character.size.x;
+        else if(character.pos.x < 0.f)
+            character.pos.x = 0.f;
+
         if(character.pos.y + character.size.y >= window_height - ground.size.y){
             character.pos.y = window_height - ground.size.y - character.size.y; 
             character.is_jumping = false;
