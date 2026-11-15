@@ -37,3 +37,8 @@ target_link_libraries(${tappa02} PRIVATE SFML::Graphics common)
 SET (tappa03 "03_pause_menu")
 add_executable(${tappa03} ${tappa03}/main.cc)
 target_link_libraries(${tappa03} PRIVATE SFML::Graphics common)
+
+# 04_power_up_introduction
+SET (tappa04 "04_power_up_introduction")
+add_executable(${tappa04} ${tappa04}/main.cc)
+target_link_libraries(${tappa04} PRIVATE SFML::Graphics common)

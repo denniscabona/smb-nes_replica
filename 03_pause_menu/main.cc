@@ -160,7 +160,6 @@ struct State {
                 if(i == menu_selection) {
                     menu.menu[i].button.setFillColor(sf::Color(150, 150, 150)); 
                     menu.menu[i].button.setOutlineThickness(3.f);
-                    //menu.menu[i].button.setOutlineColor(sf::Color::Yellow);
                 }else{
                     menu.menu[i].button.setFillColor(sf::Color::Black);
                     menu.menu[i].button.setOutlineThickness(0.f);

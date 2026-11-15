@@ -15,6 +15,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 01_basic_structure
  - 02_character_movement
  - 03_pause_menu
+ - 04_power_up_introduction
 ```
 
 ## Comandi
