@@ -17,6 +17,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 03_pause_menu
  - 04_power_up_introduction
  - 05_damage_introduction
+ - 06_better_ground_and_collisions
 ```
 
 ## Comandi

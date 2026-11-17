@@ -47,3 +47,8 @@ target_link_libraries(${tappa04} PRIVATE SFML::Graphics common)
 SET (tappa05 "05_damage_introduction")
 add_executable(${tappa05} ${tappa05}/main.cc)
 target_link_libraries(${tappa05} PRIVATE SFML::Graphics common)
+
+# 06_better_ground_and_collisions
+SET (tappa06 "06_better_ground_and_collisions")
+add_executable(${tappa06} ${tappa06}/main.cc)
+target_link_libraries(${tappa06} PRIVATE SFML::Graphics common)
