@@ -8,7 +8,7 @@
 //////////////////////
 
 // window
-const char* window_title = "04_power_up";
+const char* window_title = "04_power_up_introduction";
 const unsigned window_width = 800;
 const unsigned window_height = 600;
 const float max_frame_rate = 60;
@@ -118,10 +118,10 @@ struct Powerup {
     Powerup(sf::Vector2f initial_pos, bool type) : pos(initial_pos), size({32.f, 32.f}), type(type), is_active(true) {
         if(!type) {
             if(!texture.loadFromMemory(smb_items_png, smb_items_png_len, false, sf::IntRect({0, 8}, {16, 16})))
-                std::cerr << "Error loading character texture from memory" << std::endl;
+                std::cerr << "Error loading mushroom power-up texture from memory" << std::endl;
         }else {
             if(!texture.loadFromMemory(smb_items_png, smb_items_png_len, false, sf::IntRect({68, 8}, {16, 16})))
-                std::cerr << "Error loading character texture from memory" << std::endl;
+                std::cerr << "Error loading fire flower power-up texture from memory" << std::endl;
         }
     }
 
@@ -165,7 +165,7 @@ struct Menu {
     
     Menu() {
         if(!font.openFromMemory(smb_font_ttf, smb_font_ttf_len))
-            std::cerr << "Errore caricamento font!" << std::endl;
+            std::cerr << "Error loading font from memory" << std::endl;
         menu.push_back(Button({200.f, 200.f}, {400.f, 50.f}, font, "RIPRENDI"));
         menu.push_back(Button({200.f, 280.f}, {400.f, 50.f}, font, "CAMBIA LIVELLO"));
         menu.push_back(Button({200.f, 360.f}, {400.f, 50.f}, font, "VEDI COMANDI"));

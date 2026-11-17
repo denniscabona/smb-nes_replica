@@ -42,3 +42,8 @@ target_link_libraries(${tappa03} PRIVATE SFML::Graphics common)
 SET (tappa04 "04_power_up_introduction")
 add_executable(${tappa04} ${tappa04}/main.cc)
 target_link_libraries(${tappa04} PRIVATE SFML::Graphics common)
+
+# 05_damage_introduction
+SET (tappa05 "05_damage_introduction")
+add_executable(${tappa05} ${tappa05}/main.cc)
+target_link_libraries(${tappa05} PRIVATE SFML::Graphics common)

@@ -58,7 +58,7 @@ struct Character {
 
     Character() : pos(character_initial_pos), size(character_initial_size), speed(character_initial_speed), y_velocity(0.f), is_jumping(false) {
         if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({171, 88}, {16, 16})))
-            std::cerr << "Error loading character texture from memory" << std::endl;
+            std::cerr << "Error loading Mario texture from memory" << std::endl;
     }
 
     void draw(sf::RenderWindow& window) {
@@ -120,7 +120,7 @@ struct Menu {
     
     Menu() {
         if(!font.openFromMemory(smb_font_ttf, smb_font_ttf_len))
-            std::cerr << "Errore caricamento font!" << std::endl;
+            std::cerr << "Error loading font from memory" << std::endl;
         menu.push_back(Button({200.f, 200.f}, {400.f, 50.f}, font, "RIPRENDI"));
         menu.push_back(Button({200.f, 280.f}, {400.f, 50.f}, font, "CAMBIA LIVELLO"));
         menu.push_back(Button({200.f, 360.f}, {400.f, 50.f}, font, "VEDI COMANDI"));
