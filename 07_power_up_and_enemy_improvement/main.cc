@@ -41,7 +41,7 @@ struct Block {
     sf::Texture texture;
 
     Block(const sf::Vector2f& pos, const sf::Vector2f& size) : pos(pos), size(size) {
-        if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({229, 28}, {16, 16})))
+        if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({229, 28}, {16, 16})))
             std::cerr << "Error loading ground block texture from memory" << std::endl;
     }
 
@@ -211,11 +211,11 @@ struct Enemy {
     
     Enemy(sf::Vector2f initial_pos, int type) : pos(initial_pos), size({32.f, 32.f}), is_alive(true), type(type) {
         if(type == 0) {
-            if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({73, 300}, {16, 16})))
+            if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({73, 300}, {16, 16})))
                 std::cerr << "Error loading Goomba texture from memory" << std::endl;
         }else if(type == 1) {
             size.y = 46.f;
-            if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({161, 309}, {16, 23})))
+            if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({161, 309}, {16, 23})))
                 std::cerr << "Error loading Piranha Plant texture from memory" << std::endl;
         }else
             std::cerr << "Error! Wrong enemy type integer value" << std::endl;

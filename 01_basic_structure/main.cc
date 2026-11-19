@@ -33,7 +33,7 @@ struct Ground {
     sf::Texture texture;
 
     Ground() : pos(ground_initial_pos), size(ground_initial_size) {
-        if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({229, 28}, {16, 16})))
+        if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({229, 28}, {16, 16})))
             std::cerr << "Error loading ground texture from memory" << std::endl;
         texture.setRepeated(true);
     }
@@ -52,7 +52,7 @@ struct Character {
     sf::Texture texture;   
 
     Character() : pos(character_initial_pos), size(character_initial_size) {
-        if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({171, 88}, {16, 16})))
+        if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({171, 88}, {16, 16})))
             std::cerr << "Error loading character texture from memory" << std::endl;
     }
 

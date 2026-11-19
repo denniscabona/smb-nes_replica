@@ -36,7 +36,7 @@ struct Ground {
     sf::Texture texture;
 
     Ground() : pos(ground_initial_pos), size(ground_initial_size) {
-        if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({229, 28}, {16, 16})))
+        if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({229, 28}, {16, 16})))
             std::cerr << "Error loading ground texture from memory" << std::endl;
         texture.setRepeated(true);
     }
@@ -168,11 +168,11 @@ struct Enemy {
     
     Enemy(sf::Vector2f initial_pos, bool type) : pos(initial_pos), size({32.f, 32.f}), is_alive(true) {
         if(!type) {
-            if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({73, 300}, {16, 16})))
+            if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({73, 300}, {16, 16})))
                 std::cerr << "Error loading Goomba texture from memory" << std::endl;
         }else {
             size.y = 46.f;
-            if(!texture.loadFromMemory(smb_textures_png, smb_textures_png_len, false, sf::IntRect({161, 309}, {16, 23})))
+            if(!texture.loadFromMemory(smb_map_png, smb_map_png_len, false, sf::IntRect({161, 309}, {16, 23})))
                 std::cerr << "Error loading Piranha Plant texture from memory" << std::endl;
         }
     }
