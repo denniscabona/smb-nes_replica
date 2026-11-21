@@ -20,6 +20,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 06_better_ground_and_collisions
  - 07_power_up_and_enemy_improvement
  - 08_struct_system_improvement
+ - 09_camera_scrolling
 ```
 
 ## Comandi

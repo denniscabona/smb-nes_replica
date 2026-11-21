@@ -62,3 +62,8 @@ target_link_libraries(${tappa07} PRIVATE SFML::Graphics common)
 SET (tappa08 "08_struct_system_improvement")
 add_executable(${tappa08} ${tappa08}/main.cc)
 target_link_libraries(${tappa08} PRIVATE SFML::Graphics common)
+
+# 09_camera_scrolling
+SET (tappa09 "09_camera_scrolling")
+add_executable(${tappa09} ${tappa09}/main.cc)
+target_link_libraries(${tappa09} PRIVATE SFML::Graphics common)
