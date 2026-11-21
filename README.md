@@ -21,6 +21,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 07_power_up_and_enemy_improvement
  - 08_struct_system_improvement
  - 09_camera_scrolling
+ - 10_enemy_movement
 ```
 
 ## Comandi

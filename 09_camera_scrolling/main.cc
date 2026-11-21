@@ -26,12 +26,12 @@ const sf::Vector2f ground_displacement = {0.f, 450.f};
 const sf::Color overworld_background_color(146, 144, 255);
 const unsigned level_width = 1920;
 const unsigned level_height = 1120;
+const float gravity = 1500.f;
 
 // Character
 const sf::Vector2f character_initial_size = {32.f, 32.f};
 const sf::Vector2f character_initial_pos = {20.f, window_height - ground_initial_size.y - character_initial_size.y};
 const float character_initial_speed = 333.f;
-const float gravity = 1500.f;
 const float jump_strength = 650.f;
 
 
