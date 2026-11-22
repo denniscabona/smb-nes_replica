@@ -37,4 +37,4 @@ In gioco:
  - LEFT (←) oppure A: muovere il personaggio a sinistra
  - RIGHT (→) oppure D: muovere il personaggioa  destra
  - UP (↑) oppure W: far saltare il personaggio
- = E: spara la pallina di fuoco (solo se si ha il power-up del Fiore di Fuoco)
+ - E: spara la pallina di fuoco (solo se si ha il power-up del Fiore di Fuoco)
