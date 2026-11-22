@@ -72,3 +72,8 @@ target_link_libraries(${tappa09} PRIVATE SFML::Graphics common)
 SET (tappa10 "10_enemy_movement")
 add_executable(${tappa10} ${tappa10}/main.cc)
 target_link_libraries(${tappa10} PRIVATE SFML::Graphics common)
+
+# 11_power_up_completion
+SET (tappa11 "11_power_up_completion")
+add_executable(${tappa11} ${tappa11}/main.cc)
+target_link_libraries(${tappa11} PRIVATE SFML::Graphics common)

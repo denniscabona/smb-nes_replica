@@ -8,7 +8,7 @@
 //////////////////////
 
 // window
-const char* window_title = "09_camera_scrolling";
+const char* window_title = "10_enemy_movement";
 const unsigned window_width = 800;
 const unsigned window_height = 600;
 const float max_frame_rate = 60;

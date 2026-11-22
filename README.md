@@ -22,6 +22,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 08_struct_system_improvement
  - 09_camera_scrolling
  - 10_enemy_movement
+ - 11_power_up_completion
 ```
 
 ## Comandi
@@ -33,6 +34,7 @@ Nel menu di pausa:
 
 In gioco:
  - ESC: mettere il gioco in pausa
- - LEFT (←): muovere il personaggio a sinistra
- - RIGHT (→): muovere il personaggioa  destra
- - UP (↑): far saltare il personaggio
+ - LEFT (←) oppure A: muovere il personaggio a sinistra
+ - RIGHT (→) oppure D: muovere il personaggioa  destra
+ - UP (↑) oppure W: far saltare il personaggio
+ = E: spara la pallina di fuoco (solo se si ha il power-up del Fiore di Fuoco)
