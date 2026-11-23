@@ -23,6 +23,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 09_camera_scrolling
  - 10_enemy_movement
  - 11_power_up_completion
+ - 12_enemies_completion
 ```
 
 ## Comandi

@@ -77,3 +77,8 @@ target_link_libraries(${tappa10} PRIVATE SFML::Graphics common)
 SET (tappa11 "11_power_up_completion")
 add_executable(${tappa11} ${tappa11}/main.cc)
 target_link_libraries(${tappa11} PRIVATE SFML::Graphics common)
+
+# 12_enemies_completion
+SET (tappa12 "12_enemies_completion")
+add_executable(${tappa12} ${tappa12}/main.cc)
+target_link_libraries(${tappa12} PRIVATE SFML::Graphics common)
