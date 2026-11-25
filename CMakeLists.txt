@@ -82,3 +82,8 @@ target_link_libraries(${tappa11} PRIVATE SFML::Graphics common)
 SET (tappa12 "12_enemies_completion")
 add_executable(${tappa12} ${tappa12}/main.cc)
 target_link_libraries(${tappa12} PRIVATE SFML::Graphics common)
+
+# 13_level_creation_with_tilemap
+SET (tappa13 "13_level_creation_with_tilemap")
+add_executable(${tappa13} ${tappa13}/main.cc)
+target_link_libraries(${tappa13} PRIVATE SFML::Graphics common)
