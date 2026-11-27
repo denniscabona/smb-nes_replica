@@ -1,6 +1,7 @@
 # PROGETTO: Replica Super Mario Bros per NES
+Si prega di compilare ed eseguire sempre dalla cartella principale (smb-nes_replica/).
 ## Compilazione
-Rimanendo nella cartella principale, per compilare (vengono compilate tutte le tappe):
+Per compilare (vengono compilate tutte le tappe):
 ```
 cmake -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build
@@ -25,6 +26,7 @@ I nomi degli eseguibili delle varie tappe sono:
  - 11_power_up_completion
  - 12_enemies_completion
  - 13_level_creation_with_tilemap
+ - 14_first_level_and_background
 ```
 
 ## Comandi

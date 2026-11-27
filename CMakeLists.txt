@@ -87,3 +87,8 @@ target_link_libraries(${tappa12} PRIVATE SFML::Graphics common)
 SET (tappa13 "13_level_creation_with_tilemap")
 add_executable(${tappa13} ${tappa13}/main.cc)
 target_link_libraries(${tappa13} PRIVATE SFML::Graphics common)
+
+# 14_first_level_and_background
+SET (tappa14 "14_first_level_and_background")
+add_executable(${tappa14} ${tappa14}/main.cc)
+target_link_libraries(${tappa14} PRIVATE SFML::Graphics common)
