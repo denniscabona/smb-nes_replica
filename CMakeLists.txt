@@ -92,3 +92,8 @@ target_link_libraries(${tappa13} PRIVATE SFML::Graphics common)
 SET (tappa14 "14_first_level_and_background")
 add_executable(${tappa14} ${tappa14}/main.cc)
 target_link_libraries(${tappa14} PRIVATE SFML::Graphics common)
+
+# 15_end_of_level
+SET (tappa15 "15_end_of_level")
+add_executable(${tappa15} ${tappa15}/main.cc)
+target_link_libraries(${tappa15} PRIVATE SFML::Graphics common)
