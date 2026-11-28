@@ -33,7 +33,7 @@ const sf::Color overworld_background_color(146, 144, 255);
 unsigned level_width = window_width;
 unsigned level_height = window_height;
 const float gravity = 1500.f;
-const std::string level_path = "risorse/tilemap/livello.txt";
+const std::string level_path = "risorse/tilemap/livello1.txt";
 
 // Character
 sf::Vector2f character_initial_pos = {3.f, 0.f};

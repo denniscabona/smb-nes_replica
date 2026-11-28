@@ -28,11 +28,12 @@ I nomi degli eseguibili delle varie tappe sono:
  - 13_level_creation_with_tilemap
  - 14_first_level_and_background
  - 15_end_of_level
+ - 16_second_level
 ```
 
 ## Comandi
 Nel menu di pausa:
- - ESC: riprendi a giocare
+ - ESC: riprendi a giocare o ricomincia il livello, quest'ultimo solo se lo si ha finito
  - UP (↑): cambia la scelta selezionando quella sopra
  - DOWN (↓): cambia la scelta selezionando quella sotto
  - ENTER: conferma la scelta selezionata
