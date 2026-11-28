@@ -29,14 +29,15 @@ I nomi degli eseguibili delle varie tappe sono:
  - 14_first_level_and_background
  - 15_end_of_level
  - 16_second_level
+ - 17_pause_menu_completion
 ```
 
 ## Comandi
 Nel menu di pausa:
- - ESC: riprendi a giocare o ricomincia il livello, quest'ultimo solo se lo si ha finito
+ - ESC: riprendi a giocare
  - UP (↑): cambia la scelta selezionando quella sopra
  - DOWN (↓): cambia la scelta selezionando quella sotto
- - ENTER: conferma la scelta selezionata
+ - ENTER: conferma la scelta selezionata (RIPRENDI/RIGIOCA, CAMBIA LIVELLO o VEDI COMANDI)
 
 In gioco:
  - ESC: mettere il gioco in pausa
@@ -44,3 +45,6 @@ In gioco:
  - RIGHT (→) oppure D: muovere il personaggioa  destra
  - UP (↑) oppure W: far saltare il personaggio
  - E: spara la pallina di fuoco (solo se si ha il power-up del Fiore di Fuoco)
+
+ In VEDI COMANDI:
+ - ENTER oppure ESC: torna indietro al menu di pausa
